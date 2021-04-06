@@ -39,7 +39,7 @@ If you have [rustup](https://rustup.rs/) installed:
 # Add Rust nightly:
 > rustup toolchain add nightly
 # Add the wasm32-wasi target
-> rustup target add wasm32-wasi
+> rustup target add wasm32-wasi --toolchain nightly
 # Build the project
 > cargo +nightly build
 ```
